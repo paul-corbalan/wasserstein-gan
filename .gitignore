@@ -1,0 +1,6 @@
+# Ignore data and samples files
+data/**
+samples/**
+
+# Ignore pycaches
+**/__pycache__/**
