@@ -31,7 +31,7 @@ Two main empirical claims:
 **With DCGAN:**
 
 ```bash
-python main.py --dataset lsun --dataroot [lsun-train-folder] --cuda
+python main.py --dataset folder --dataroot data/maps --cuda
 ```
 
 **With MLP:**
