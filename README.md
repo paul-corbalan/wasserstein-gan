@@ -5,5 +5,5 @@ This project is based on the following resources:
 
 ## Use
 ```bash
-python main.py --dataset folder --dataroot data/maps --imageSize 256
+python main.py
 ```
