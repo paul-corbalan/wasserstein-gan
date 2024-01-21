@@ -5,5 +5,5 @@ This project is based on the following resources:
 
 ## Use
 ```bash
-python main.py --dataset folder --dataroot data/maps
+python main.py
 ```
