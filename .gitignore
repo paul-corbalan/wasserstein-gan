@@ -1,6 +1,10 @@
 # Ignore data and samples files
 data/**
 samples/**
+# Include the final model weights and config
+!samples/generator_config.json
+!samples/netD_epoch_2384.pth
+!samples/netG_epoch_2384.pth
 
 # Ignore pycaches
 **/__pycache__/**
