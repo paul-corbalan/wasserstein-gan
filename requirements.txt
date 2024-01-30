@@ -3,3 +3,8 @@ torchvision
 lmdb
 torchviz
 notebook
+matplotlib
+scikit-learn
+scikit-image
+seaborn
+pandas
