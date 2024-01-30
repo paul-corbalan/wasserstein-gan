@@ -9,6 +9,7 @@ samples/**
 !samples/generator_config.json
 !samples/netD_epoch_2384.pth
 !samples/netG_epoch_2384.pth
+!samples/out.log
 
 # Ignore pycaches
 **/__pycache__/**
