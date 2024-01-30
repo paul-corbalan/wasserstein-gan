@@ -1,10 +1,20 @@
+# Jupyter Notebook execution
+notebook
+
+# Pytorch dependencies
 torch
 torchvision
 lmdb
-torchviz
-notebook
+
+# Array processing
+numpy
+pandas
+
+# Display
 matplotlib
+torchviz
+
+# Image processing
 scikit-learn
 scikit-image
 seaborn
-pandas
