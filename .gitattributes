@@ -1,3 +1,4 @@
 samples/generator_config.json filter=lfs diff=lfs merge=lfs -text
 samples/netD_epoch_2384.pth filter=lfs diff=lfs merge=lfs -text
 samples/netG_epoch_2384.pth filter=lfs diff=lfs merge=lfs -text
+data/predicted_humans.zip filter=lfs diff=lfs merge=lfs -text

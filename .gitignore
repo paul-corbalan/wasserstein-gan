@@ -1,5 +1,9 @@
-# Ignore data and samples files
+# Ignore data files
 data/**
+# Include the final dataset
+!data/predicted_humans.zip
+
+# Ignore samples files
 samples/**
 # Include the final model weights and config
 !samples/generator_config.json
