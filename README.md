@@ -1,41 +1,41 @@
 # Wasserstein GAN
-L'objectif de ce projet était d'étudier les GANs dans le cas de la distance de Wasserstein.
+This project consisted in studying GANs in the case of Wasserstein distance, as part of the fifth-year course at INSA Toulouse in Applied Mathematics of High Dimensional and Deep Learning.
 
-Voici les membres de notre groupe classés par ordres alphabétiques pour leur nom de famille :
+Here are the members of our group, listed alphabetically by surname:
 - Paul Corbalan
 - Nicolas Gonel
 - Oihan Joyot
 - Tristan Portugues
 - Florian Zorzynski
 
-Notre projet s'inspire grandement des ressources suivantes qui sont l'article initial de notre projet ainsi que le code correspondant.
-- Article : [[1701.07875] Wasserstein GAN (arxiv.org)](https://arxiv.org/abs/1701.07875)
-- Code : [martinarjovsky/WassersteinGAN (github.com)](https://github.com/martinarjovsky/WassersteinGAN)
+Our project is largely inspired by the following resources, which are the initial article of our project as well as the corresponding code.
+- Article: [[1701.07875] Wasserstein GAN (arxiv.org)](https://arxiv.org/abs/1701.07875)
+- Code: [martinarjovsky/WassersteinGAN (github.com)](https://github.com/martinarjovsky/WassersteinGAN)
 
 
 ## Installation
-Il est important de noter que Python 3.11 a été utilisé pour ce projet notamment au niveau de la compatibilité avec la librairie PyTorch, il est donc recommandé d'utiliser cette version.
-1. Pour installer Python 3.11, il est recommandé de le faire avec Anaconda, en exécutant la commande suivante :
+It's important to note that Python 3.11 was used for this project, particularly for compatibility with the PyTorch library, so we recommend using this version.
+1. To install Python 3.11, we recommend using Anaconda, by executing the following command:
     ```shell
     conda create -n wasserstein-gan python=3.11
     ```
-2. Pour activer l'environnement, il suffit d'exécuter la commande suivante :
+2. To activate the environment, simply run the following command:
     ```shell
     conda activate wasserstein-gan
     ```
-3. Pour installer les dépendances du projet, il suffit d'exécuter la commande suivante :
+3. To install the project's dependencies, simply run the following command:
     ```shell
     pip install -r requirements.txt
     ```
 
 
-## Utilisation
-Le détail des expériences est détaillé dans le [Jupiter Notebook](./notebook.ipynb). Cependant il est possible de reproduire celle-ci simplement en exécutant les commandes suivantes :
-- Pour l'entraînement :
+## Use
+Details of the experiments are given in the [Jupiter Notebook](./notebook.ipynb). However, they can be reproduced simply by executing the following commands:
+- For training:
     ```shell
     python main.py
     ```
-- Pour la génération d'images :
+- For image generation:
     ```shell
     python generate.py
     ```
