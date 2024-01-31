@@ -31,7 +31,7 @@ It's important to note that Python 3.11 was used for this project, particularly 
 
 ## Use
 Details of the experiments are given in the [Jupiter Notebook](./notebook.ipynb). However, they can be reproduced simply by executing the following commands:
-- For training :
+- For training:
     ```shell
     python main.py
     ```
