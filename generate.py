@@ -20,10 +20,10 @@ import models.mlp as mlp
 if __name__=="__main__":
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('-c', '--config', required=True, type=str, help='path to generator config .json file')
-    parser.add_argument('-w', '--weights', required=True, type=str, help='path to generator weights .pth file')
-    parser.add_argument('-o', '--output_dir', required=True, type=str, help="path to to output directory")
-    parser.add_argument('-n', '--nimages', required=True, type=int, help="number of images to generate", default=1)
+    parser.add_argument('-c', '--config', default='samples/generator_config.json', type=str, help='path to generator config .json file')
+    parser.add_argument('-w', '--weights', default='samples/netG_epoch_2384.pth', type=str, help='path to generator weights .pth file')
+    parser.add_argument('-o', '--output_dir', default='data/generated', type=str, help="path to to output directory")
+    parser.add_argument('-n', '--nimages', default=100, type=int, help="number of images to generate")
     parser.add_argument('--cuda', action='store_true', help='enables cuda')
     opt = parser.parse_args()
 
